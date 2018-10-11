@@ -20,4 +20,5 @@ def save(artist)
   @@all << artist
   song.artist = self
 end
+
 end
