@@ -14,7 +14,6 @@ def add_song(song)
 end
 
 def save
-@@all.save
-
+@@all << self
 end
 end
