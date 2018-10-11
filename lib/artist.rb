@@ -14,9 +14,8 @@ def add_song(song)
   song.artist=self
   @@songs << song
 end
-def save
-  name << artist
-  @@songs << artist
-     song.artist = self
+def self.save
+  @@songs << self
+
 end
 end
