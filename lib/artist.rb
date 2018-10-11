@@ -15,6 +15,7 @@ def add_song(song)
   @@songs << song
 end
 def save(artist)
-  @artist = artist
+  name << artist
+  songs << artist
 end
 end
